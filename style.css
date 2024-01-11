@@ -20,12 +20,12 @@ section {
 }
 
 .color {
-  background-color: #ede6e3;
+  background-color: #caaa87;
 }
 
 .bg-web {
   background-image: linear-gradient(
-      rgba(169, 151, 137, 0.6),
+      rgba(110, 137, 155, 0.6),
       rgba(243, 210, 201, 0.33)
     ),
     url("img1.jpg");
@@ -44,8 +44,9 @@ section {
   filter: drop-shadow(0 0 0.75rem #756454);
   color: #f5f1ef;
   cursor: pointer;
-  /* position: fixed;
-  width: 95%; */
+  position: fixed;
+  z-index: 1;
+  width: 95%;
 }
 
 .navbar a {
@@ -111,10 +112,11 @@ section {
 }
 .welcome {
   font-size: 48px;
-  color: #756454;
+  color: #fff07a;
 }
 
 .sub-welcome {
+  color: white;
   font-size: 20px;
   margin-top: 0.8rem;
   margin-bottom: 0.5rem;
@@ -124,7 +126,7 @@ section {
 
 .span-bold {
   font-weight: bold;
-  color: #756454;
+  color: #2f1a00;
 }
 
 .button {
@@ -149,8 +151,9 @@ section {
 }
 
 .button-inline {
-  color: #756454;
-  border: 1px solid #756454;
+  background-color: #a99789;
+  color: #f5f1ef;
+  border: 1px solid #a99789;
   border-radius: 0.5rem;
 }
 
@@ -177,7 +180,7 @@ section {
 
 .my-bio {
   font-size: 18px;
-  color: #a99789;
+  color: #000000;
   text-align: justify;
 }
 
